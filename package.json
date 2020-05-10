@@ -9,7 +9,11 @@
     "test": "jest"
   },
   "author": "Philipp Steckenbauer <philipp@steckenbauer.com>",
-  "homepage": "https://github.com/owner/project#readme",
+  "homepage": "https://github.com/Philipp122/Type#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Philipp122/Type.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^25.2.1",
