@@ -1,0 +1,17 @@
+{
+  "name": "@philipp122/type",
+  "version": "1.0.0",
+  "description": "Better Type Checking",
+  "main": "index.js",
+  "browser": "index.js",
+  "keywords": ["type", "typechecking", "typeof", "instanceof"],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Philipp Steckenbauer <philipp@steckenbauer.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^26.0.1"
+  }
+}
