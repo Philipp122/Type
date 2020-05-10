@@ -4,15 +4,20 @@
   "description": "Better Type Checking",
   "main": "index.js",
   "browser": "index.js",
-  "keywords": ["type", "typechecking", "typeof", "instanceof"],
+  "keywords": [
+    "type",
+    "typechecking",
+    "typeof",
+    "instanceof"
+  ],
   "scripts": {
     "test": "jest"
   },
   "author": "Philipp Steckenbauer <philipp@steckenbauer.com>",
   "homepage": "https://github.com/Philipp122/Type#readme",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Philipp122/Type.git"
+    "type": "git",
+    "url": "https://github.com/Philipp122/Type.git"
   },
   "license": "MIT",
   "devDependencies": {
