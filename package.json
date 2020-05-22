@@ -1,6 +1,6 @@
 {
   "name": "@philipp122/type",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Better Type Checking",
   "main": "index.js",
   "browser": "index.js",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^25.2.1",
+    "@types/jest": "^25.2.3",
     "jest": "^26.0.1"
   }
 }

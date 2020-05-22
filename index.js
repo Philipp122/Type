@@ -1,4 +1,9 @@
 module.exports = {
+	Undefined: class {
+		static [Symbol.hasInstance](instance) {
+			return instance === undefined;
+		}
+	},
 	Null: class {
 		static [Symbol.hasInstance](instance) {
 			return instance === null;
@@ -49,14 +54,29 @@ module.exports = {
 			return Object.prototype.toString.call(instance) === '[object Object]';
 		}
 	},
+	Symbol: class {
+		static [Symbol.hasInstance](instance) {
+			return typeof instance === 'symbol';
+		}
+	},
 	Set: class {
 		static [Symbol.hasInstance](instance) {
 			return instance instanceof Set;
 		}
 	},
+	WeakSet: class {
+		static [Symbol.hasInstance](instance) {
+			return instance instanceof WeakSet;
+		}
+	},
 	Map: class {
 		static [Symbol.hasInstance](instance) {
 			return instance instanceof Map;
+		}
+	},
+	WeakMap: class {
+		static [Symbol.hasInstance](instance) {
+			return instance instanceof WeakMap;
 		}
 	}
 };
